@@ -31,4 +31,10 @@ setup(name='gk.crypto',
       extras_require={'test': test_requires},
       install_requires=[
           ],
+      entry_points={
+         'paste.filter_app_factory': [
+             'cipher = gk.crypto.ticket:cipher',
+         ],
+      }
+
       )
