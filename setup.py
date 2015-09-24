@@ -30,6 +30,9 @@ setup(name='gk.crypto',
       zip_safe=False,
       extras_require={'test': test_requires},
       install_requires=[
+          "pycrypto",
+          "cromlech.browser",
+          "zope.i18nmessageid",
           ],
       entry_points={
          'paste.filter_app_factory': [
