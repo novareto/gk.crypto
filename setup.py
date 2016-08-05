@@ -1,15 +1,14 @@
 from setuptools import setup, find_packages
 import os
 
-readme_filename = os.path.join('src', 'gk', 'crypto', 'README.txt')
-long_description = open(readme_filename).read() + '\n\n' + \
-                   open('CHANGES.txt').read()
+
+long_description = ""
 
 test_requires = [
     ]
 
 setup(name='gk.crypto',
-      version='0.2.dev0',
+      version='0.2',
       description="Crypto system for Gatekeeper",
       long_description = long_description,
       classifiers=['Environment :: Web Environment',
