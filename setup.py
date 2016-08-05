@@ -9,7 +9,7 @@ test_requires = [
     ]
 
 setup(name='gk.crypto',
-      version='1.0',
+      version='0.1',
       description="Crypto system for Gatekeeper",
       long_description = long_description,
       classifiers=['Environment :: Web Environment',
@@ -31,6 +31,7 @@ setup(name='gk.crypto',
       extras_require={'test': test_requires},
       install_requires=[
           "pycrypto",
+          "setuptools",
           "cromlech.browser",
           "zope.i18nmessageid",
           ],
