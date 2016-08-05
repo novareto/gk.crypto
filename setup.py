@@ -9,7 +9,7 @@ test_requires = [
     ]
 
 setup(name='gk.crypto',
-      version='0.1',
+      version='0.2.dev0',
       description="Crypto system for Gatekeeper",
       long_description = long_description,
       classifiers=['Environment :: Web Environment',
